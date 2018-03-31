@@ -105,6 +105,12 @@
 	id = "sal_acid"
 	results = list("sal_acid" = 5)
 	required_reagents = list("sodium" = 1, "phenol" = 1, "carbon" = 1, "oxygen" = 1, "sacid" = 1)
+	
+/datum/chemical_reaction/oxandrolone
+	name = "Oxandrolone"
+	id = "oxandrolone"
+	results = list("oxandrolone" = 5)
+	required_reagents = list("carbon" = 2, "phenol" = 1, "hydrogen" = 1, "oxygen" = 1)
 
 /datum/chemical_reaction/salbutamol
 	name = "Salbutamol"

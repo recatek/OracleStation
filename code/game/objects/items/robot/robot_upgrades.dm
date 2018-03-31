@@ -339,7 +339,7 @@
 	name = "medical cyborg high-strength hypospray"
 	desc = "An upgrade to the Medical module's hypospray, containing \
 		stronger versions of existing chemicals."
-	additional_reagents = list("sal_acid", "rezadone",
+	additional_reagents = list("oxandrolone", "sal_acid", "rezadone",
 		"pen_acid")
 	origin_tech = "programming=5;engineering=5;biotech=6"
 
