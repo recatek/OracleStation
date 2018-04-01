@@ -2,12 +2,14 @@
 //feed it json files that match the datum layout
 //defaults to box
 //  -Cyberboss
+// Changed default to omega 
+//  -Recatek
 
 /datum/map_config
-    var/config_filename = "_maps/boxstation.json"
-    var/map_name = "Box Station"
-    var/map_path = "map_files/BoxStation"
-    var/map_file = "BoxStation.dmm"
+    var/config_filename = "_maps/omegastation.json"
+    var/map_name = "OmegaStation"
+    var/map_path = "map_files/OmegaStation"
+    var/map_file = "OmegaStation.dmm"
 
     var/minetype = "lavaland"
 
@@ -29,8 +31,8 @@
     var/config_min_users = 0
     var/voteweight = 1
     var/allow_custom_shuttles = "yes"
-/datum/map_config/New(filename = "data/next_map.json", default_to_box, delete_after)
-    if(default_to_box)
+/datum/map_config/New(filename = "data/next_map.json", use_default_map, delete_after)
+    if(use_default_map)
         return
     LoadConfig(filename)
     if(delete_after)
